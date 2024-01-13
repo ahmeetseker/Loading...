@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #090909;
+}
+
+.bg {
+    background: url(https://rare-gallery.com/resol/1920x1080/39134-Programming-ProgrammerEat-Sleep-Code-Repeat.png) no-repeat center center/contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+    width: 100%;
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+    
+}
